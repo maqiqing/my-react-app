@@ -114,3 +114,34 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+.Cards h2 {
+  margin: 50px 20px;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+
+  /* 颜色渐变 */
+  background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CardGroup {
+  margin: 0 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+@media (max-width: 1024px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
