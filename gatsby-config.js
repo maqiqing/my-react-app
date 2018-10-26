@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Hello Matou',
+    description: '这是一个描述',
+    keywords: '这是一个关键词'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
