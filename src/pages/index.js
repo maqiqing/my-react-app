@@ -34,8 +34,8 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Learn to design and code React apps</h1>
-        <p>Complete courses about the best tools and design systems.Prototype and build apps with React and Swift</p>
+        <h1>学习并编程React程序</h1>
+        <p>无聊学习react程序，这样子就可以自己写网站，博客啥的---马头</p>
         <Link to="/video">Watch the video</Link>
         <div className="logos">
           <img src={require('../images/logo-sketch.png')} width="50"/>
